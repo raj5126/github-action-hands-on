@@ -1,7 +1,7 @@
 name: Share data between job
 on: [push]
 jobs:
-  share-data-between-jobs-example:
+   share-data-between-jobs-example:
     name: Save output
     steps:
        - shell: bash
@@ -13,7 +13,6 @@ jobs:
            name: output-log-file
            path: output.log
        - name: Download single artifact
-         needs: Upload output file
          uses: actions/download-artifact@v2
          with:
            name: output-log-file
