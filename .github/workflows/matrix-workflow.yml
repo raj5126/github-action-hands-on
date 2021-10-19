@@ -2,7 +2,7 @@ name: Example using a built matrix
 on: [push]
 jobs:
   build:
-    runs-on: ubnutu-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node: [6, 8, 10]
