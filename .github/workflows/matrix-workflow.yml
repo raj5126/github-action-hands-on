@@ -1,3 +1,5 @@
+name: Example using a built matrix
+on: [push]
 jobs:
   build:
     runs-on: ubnutu-latest
