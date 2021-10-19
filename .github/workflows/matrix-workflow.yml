@@ -1,0 +1,10 @@
+jobs:
+  build:
+    runs-on: ubnutu-latest
+    strategy:
+      matrix:
+        node: [6, 8, 10]
+    steps:
+      - uses: action/setup-node@v2
+        with:
+          node-version: ${{ matrix.node }}
