@@ -1,0 +1,10 @@
+{
+  "name": "First Template"
+  "description": "Demo Template Created For Hands-On."
+  "iconName": "example-icon"
+  "filePatterns": [
+      "package.json$",
+      "^Dockerfile",
+      ".*\\.md$"
+  ]
+}
