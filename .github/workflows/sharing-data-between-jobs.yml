@@ -2,7 +2,7 @@ name: Share data between job
 on: [push]
 jobs:
    share-data-between-jobs-example:
-    name: Save output
+    runs-on: ubuntu-latest 
     steps:
        - shell: bash
          run: |
